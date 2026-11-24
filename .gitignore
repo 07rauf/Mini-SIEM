@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Temporary files
+*.log
+
+# Raw dataset - not required by dashboard
+data/raw/
+
+# Unnecessary processed files
+data/processed/web_access_clean.csv
+data/processed/web_access_invalid.csv
+data/processed/firewall_invalid.csv
+
+# Intermediate feature files
+data/features/firewall_features.csv
+data/features/web_features.csv
+data/features/cluster_method_distribution.csv
+data/features/cluster_profiles.csv
+data/features/cluster_status_distribution.csv
+data/features/cluster_user_agent_distribution.csv
+data/features/dbscan_evaluation.csv
+data/features/kmeans_evaluation.csv

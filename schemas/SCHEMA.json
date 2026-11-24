@@ -1,0 +1,101 @@
+{
+  "web_access.csv": {
+    "fields": [
+      "timestamp",
+      "src_ip",
+      "method",
+      "path",
+      "status",
+      "bytes",
+      "user_agent",
+      "referrer"
+    ]
+  },
+  "firewall.csv": {
+    "fields": [
+      "timestamp",
+      "src_ip",
+      "dst_ip",
+      "src_port",
+      "dst_port",
+      "protocol",
+      "action",
+      "bytes_sent",
+      "bytes_received",
+      "dst_country"
+    ]
+  },
+  "dns.csv": {
+    "fields": [
+      "timestamp",
+      "client_ip",
+      "qname",
+      "qtype",
+      "rcode",
+      "length"
+    ]
+  },
+  "auth.csv": {
+    "fields": [
+      "timestamp",
+      "user",
+      "src_ip",
+      "result",
+      "system",
+      "method"
+    ]
+  },
+  "vpn.csv": {
+    "fields": [
+      "timestamp",
+      "user",
+      "public_ip",
+      "country",
+      "session_seconds",
+      "mfa"
+    ]
+  },
+  "cloudtrail.csv": {
+    "fields": [
+      "timestamp",
+      "user",
+      "action",
+      "source_ip",
+      "error",
+      "user_agent",
+      "region"
+    ]
+  },
+  "cloudtrail.jsonl": {
+    "fields": [
+      "timestamp",
+      "user",
+      "action",
+      "source_ip",
+      "error",
+      "user_agent",
+      "region"
+    ]
+  },
+  "proxy.csv": {
+    "fields": [
+      "timestamp",
+      "client_ip",
+      "url",
+      "status",
+      "bytes"
+    ]
+  },
+  "edr_alerts.csv": {
+    "fields": [
+      "timestamp",
+      "hostname",
+      "severity",
+      "tactic_technique",
+      "process"
+    ]
+  },
+  "access.log": {
+    "format": "Apache/Nginx combined log style (synthetic)"
+  }
+}
