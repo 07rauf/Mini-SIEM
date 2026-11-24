@@ -678,10 +678,6 @@ with sqli_indicator_col:
     else:
         st.info("İndikator məlumatı yoxdur.")
 
-st.caption(
-    "SQLi indikatorları heuristic qaydalarla müəyyən edilir; "
-    "onlar təkbaşına hücumun uğurlu olduğunu sübut etmir."
-)
 
 st.divider()
 
