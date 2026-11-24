@@ -133,14 +133,6 @@ head_left, head_right = st.columns([5, 1])
 
 with head_left:
     st.title("🔐 MINI-SIEM | SECURITY OPERATIONS CENTER")
-    st.markdown(
-        "<div class='soc-subtitle'>"
-        "STUDENT PORTAL MONITORING  •  WEB ACCESS  •  SQLi HEURISTICS  "
-        "•  CLUSTER ANALYTICS  •  FIREWALL"
-        "</div>",
-        unsafe_allow_html=True
-    )
-
 with head_right:
     st.markdown(
         "<div class='status-online'>● SYSTEM ONLINE</div>",
